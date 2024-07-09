@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --yellow:#FFB21E;
+    --yello-white:#232323;
+    --blue:#1125D6;
+    --blue-white:#F3F4FD;
+    --green:#00BB8F;
+    --green-white:#F2FCF9;
+    --red:#FF5555;
+    --red-white:#FFF6F6;
+    --dark-navy:#303B59;
+    --light-blue:#CAC9FF;
+    --very-light-blue:#ECF2FF;
+    --white:#FFF;
+}
+
+*{
+    font-family: 'Hanken Grotesk',sans-serif;
+}
+
