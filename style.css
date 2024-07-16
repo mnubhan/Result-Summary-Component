@@ -102,7 +102,38 @@ body {
   height:3.5rem;
   min-width:18rem;
   max-width:20rem;
-  
+}
+
+.info__summary_category+div {
+  margin-top:1rem;
+}
+
+.button{
+  max-width: 20rem;
+  min-width: 18rem;
+  min-height:3.5rem;
+  margin-inline: auto;
+  /* text-align: justify; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__summary_verbal{
+  background-color:var(--green-white);
+}
+
+.info__summary_reaction{
+  background-color:var(--red-white)
+}
+
+.info__summary_memory{
+  background-color:var(--yelloww);
+}
+
+.info__summary_visual{
+  background-color:var(--blue-white);
 }
 
 @media screen and (max-width: 375px) {
@@ -124,8 +155,8 @@ body {
   .result__out-of-100 {
     font-size: 1rem;
   }
-  .info__summary{
-    width:auto;
+  .info__summary_category+.button {
+    margin-top: 1.5rem;
   }
 }
 
